@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wing1</string>
+
+    <string-array name="help">
+        <item>版本号:1.0.0</item>
+        <item>功能介绍</item>
+    </string-array>
+</resources>

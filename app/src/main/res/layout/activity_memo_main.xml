@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_top"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="备忘录"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/memo_bnback"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back_button_selector" />
+
+        <Button
+            android:id="@+id/memo_bnadd"
+            android:layout_width="33dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/add_button_selector" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/memo_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
